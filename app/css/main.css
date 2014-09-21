@@ -1086,7 +1086,7 @@
 /*Footer*/
 .footer {
   color: #dadada;
-  background: #585f69;
+  background: #262626;
   padding: 20px 0 30px;
 }
 
@@ -1161,7 +1161,7 @@
 .copyright {
   font-size: 12px;
   padding: 11px 0 7px;
-  background: #3e4753;
+  background: #000;
   border-top: solid 1px #777;
 }
 
