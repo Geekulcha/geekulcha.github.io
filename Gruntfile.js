@@ -263,9 +263,15 @@ module.exports = function (grunt) {
       dist: {
         options: {
           remote: '../',
-          branch: 'gh-pages',
+          branch: 'master',
           commit: true,
           push: true
+        }
+      },
+      pages: {
+        options: {
+          remote: 'git@github.com:Geekulcha/geekulcha.github.io.git',
+          branch: 'master'
         }
       }
     },
