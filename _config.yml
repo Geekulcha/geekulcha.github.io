@@ -20,7 +20,7 @@ future: true
 show_drafts: true
 
 permalink: /:title
-# paginate: 10
+paginate: 10
 paginate_path: 'page:num'
 
 baseurl: ''
