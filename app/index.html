@@ -3,19 +3,23 @@ layout: default
 title: Blog
 ---
 
+{% include header.html %}
+
 <div class="blog_masonry_3col">
   <div class="container content grid-boxes">
     {% for post in site.posts %}
       <div class="grid-boxes-in">
-        <img class="img-responsive" src="{{ site.baseurl }}/img/masonry/blog3.jpg" alt="">
+        <img class="img-responsive" src="/img/masonry/blog3.jpg" alt="">
         <div class="grid-boxes-caption">
-          <h3><a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a></h3>
+          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
           <ul class="list-inline grid-boxes-news">
-            <li><span>By</span> <a href="#">Kathy Reyes</a></li>
+            <li><span>By</span> <a href="https://twitter.com/{{ post.author.twitter }}" target="_blank">{{ post.author.name }}</a></li>
             <li>|</li>
             <li><i class="fa fa-clock-o"></i> {{ post.date | date_to_string }}</li>
+<!--
             <li>|</li>
             <li><a href="#"><i class="fa fa-comments-o"></i> 06</a></li>
+-->
           </ul>
           <p>{{ post.content | strip_html | truncatewords: 30 }}</p>
         </div>
