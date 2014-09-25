@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: fade-out
 title: More product savvy, less brand conscious.
 image: Questions.png
 wordpress_id: 489
 wordpress_url: http://www.geekulcha.com/blog/?p=489
+header_img: iphone-event.jpg
 author:
   name: Keitumetsi Tsotetsi
   twitter: Keitu_Tsotetsi
