@@ -30,7 +30,7 @@ The Apple product launch had the world up in arms. Both the tech geeks and “th
 
  The developments and capabilities of the devices that are introduced are amazing. A question I always ask myself is, is it the device that I want or is it the operating system that I prefer? If you could buy a device and install any operating system, would that change the device that you bought?
 
- It is time for the apps to be given the glory. They make the product. How often is it that you hear a person saying_ “I was window shopping in the app store and downloaded this amazing thing…”_
+ It is time for the apps to be given the glory. They make the product. How often is it that you hear a person saying _“I was window shopping in the app store and downloaded this amazing thing…”_
 
  Most users are so preoccupied with putting last year’s device battle genie back into the bottle that they are too brand distracted to notice that the devs have conjured up even more unpredictable apps.
 
