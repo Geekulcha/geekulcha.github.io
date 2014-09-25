@@ -1,8 +1,14 @@
+{% include googleanalytics.html %}
+
 <!-- build:js(app) /js/vendor.js -->
 <script src="/js/vendors/jquery/jquery.min.js"></script>
 <script src="/js/vendors/jquery-migrate.min.js"></script>
 <script src="/js/vendors/bootstrap.min.js"></script>
 <script src="/js/masonry/jquery.masonry.min.js"></script>
+<!-- endbuild -->
+
+<!-- build:js(app) /js/vendor.js -->
+<script src="/js/plugins/back-to-top.js"></script>
 <!-- endbuild -->
 
 <!-- build:js(app) /js/scripts.js -->
@@ -11,10 +17,10 @@
 <script src="/js/blog-masonry.js"></script>
 <!-- endbuild -->
 
-<script src="/js/infinite-jekyll.js"></script>
+<!--<script src="/js/infinite-jekyll.js"></script>-->
 
 <script type="text/javascript">
-  // jQuery(document).ready(function() {
-  //   App.init();
-  // });
+  jQuery(document).ready(function() {
+    App.init();
+  });
 </script>
