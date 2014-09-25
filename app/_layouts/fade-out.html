@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Geekulcha Blog,  Young. Talented. Skilled. Creative. Ambitious">
+    <meta name="author" content="Geekulcha">
+
+    <title>{{ page.title }} - Geekulcha | Young. Talented. Skilled. Creative. Ambitious</title>
+
+    <!-- build:css(app) /css/fade-out.css -->
+    <link rel="stylesheet" href="/css/vendors/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/demo.css" />
+    <link rel="stylesheet" href="/css/component.css" />
+    <!-- endbuild -->
+
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body class="demo-2">
+    <div id="container" class="container intro-effect-fadeout">
+      <!-- Top Navigation -->
+      <div class="codrops-top clearfix">
+        <a class="codrops-icon codrops-icon-prev" href="/"><span>Return Home</span></a>
+        <span class="right"><a href="http://www.geekulcha.com"><i class="fa fa-home"></i> <span>Back to Geekulcha</span></a></span>
+      </div>
+      <header class="header">
+        <div class="bg-img"><img src="/img/{{ page.header_img }}" alt="Background Image"/></div>
+        <div class="title">
+          <h1>{{ page.title }}</h1>
+          <p class="subline">{{ page.subline }}</p>
+          <p>by <strong>{{ page.author.name }}</strong> &#8212; Posted on <strong>{{ page.date | date_to_string }}</strong></p>
+        </div>
+      </header>
+      <button class="trigger" data-info="Scroll to read the article"><span>Trigger</span></button>
+      <article class="content">
+        <div>
+          {{ content }}
+        </div>
+      </article>
+
+      <div class="content">
+        {% include disqus.html %}
+      </div>
+
+      <!--
+        <section class="related">
+          <p>If you enjoyed these effects you might also like:</p>
+          <div><a href="http://tympanus.net/Development/HeaderEffects/"><h4>On Scroll Header Effects</h4></a></div>
+          <div><a href="http://tympanus.net/Tutorials/MediumStylePageTransition/"><h4>Medium-Style Page Transitions</h4></a></div>
+        </section>
+      -->
+    </div><!-- /container -->
+
+    <!-- build:js(app) /js/fade-out.js -->
+    <script src="/js/classie.js"></script>
+    <script src="/js/blog-fade-out.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
