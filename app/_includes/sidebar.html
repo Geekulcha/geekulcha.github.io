@@ -1,0 +1,86 @@
+<!-- Right Sidebar -->
+<div class="col-md-3 magazine-page">
+  <!-- Search Bar -->
+  <div class="headline headline-md"><h2>Search</h2></div>
+  <div class="input-group margin-bottom-40">
+    <input type="text" class="form-control" placeholder="Search">
+    <span class="input-group-btn">
+      <button class="btn-u" type="button">Go</button>
+    </span>
+  </div>
+  <!-- End Search Bar -->
+
+  <!-- Posts -->
+  <div class="posts margin-bottom-40">
+    <div class="headline headline-md"><h2>Recent Posts</h2></div>
+    {% for post in site.posts limit: 3 %}
+    <dl class="dl-horizontal">
+      <dt><a href="{{ post.url }}"><img src="assets/img/sliders/elastislide/6.jpg" alt="" /></a></dt>
+      <dd>
+        <p>
+          <a href="#">{{ post.title }}</a> <br>
+          {{ post.content | strip_html | truncatewords: 5 }}
+        </p>
+      </dd>
+    </dl>
+    {% endfor %}
+  </div><!--/posts-->
+  <!-- End Posts -->
+
+  <!-- Blog Tags -->
+  <div class="headline headline-md"><h2>Blog Tags</h2></div>
+  <ul class="list-unstyled blog-tags margin-bottom-30">
+    <li><a href="#"><i class="fa fa-tags"></i> Business</a></li>
+    <li><a href="#"><i class="fa fa-tags"></i> Music</a></li>
+    <li><a href="#"><i class="fa fa-tags"></i> Internet</a></li>
+    <li><a href="#"><i class="fa fa-tags"></i> Money</a></li>
+    <li><a href="#"><i class="fa fa-tags"></i> Google</a></li>
+    <li><a href="#"><i class="fa fa-tags"></i> TV Shows</a></li>
+    <li><a href="#"><i class="fa fa-tags"></i> Education</a></li>
+    <li><a href="#"><i class="fa fa-tags"></i> People</a></li>
+    <li><a href="#"><i class="fa fa-tags"></i> People</a></li>
+    <li><a href="#"><i class="fa fa-tags"></i> Math</a></li>
+    <li><a href="#"><i class="fa fa-tags"></i> Photos</a></li>
+    <li><a href="#"><i class="fa fa-tags"></i> Electronics</a></li>
+    <li><a href="#"><i class="fa fa-tags"></i> Apple</a></li>
+    <li><a href="#"><i class="fa fa-tags"></i> Canada</a></li>
+  </ul>
+  <!-- End Blog Tags -->
+
+  <!-- Blog Latest Tweets -->
+<!--
+  <div class="blog-twitter margin-bottom-30">
+    <div class="headline headline-md"><h2>Latest Tweets</h2></div>
+    <div class="blog-twitter-inner">
+      <i class="fa fa-twitter"></i>
+      <a href="#">@htmlstream</a>
+      At vero eos et accusamus et iusto odio dignissimos.
+      <a href="#">http://t.co/sBav7dm</a>
+      <span>5 hours ago</span>
+    </div>
+    <div class="blog-twitter-inner">
+      <i class="fa fa-twitter"></i>
+      <a href="#">@htmlstream</a>
+      At vero eos et accusamus et iusto odio dignissimos.
+      <a href="#">http://t.co/sBav7dm</a>
+      <span>5 hours ago</span>
+    </div>
+    <div class="blog-twitter-inner">
+      <i class="fa fa-twitter"></i>
+      <a href="#">@htmlstream</a>
+      At vero eos et accusamus et iusto odio dignissimos.
+      <a href="#">http://t.co/sBav7dm</a>
+      <span>5 hours ago</span>
+    </div>
+    <div class="blog-twitter-inner">
+      <i class="fa fa-twitter"></i>
+      <a href="#">@htmlstream</a>
+      At vero eos et accusamus et iusto odio dignissimos.
+      <a href="#">http://t.co/sBav7dm</a>
+      <span>5 hours ago</span>
+    </div>
+  </div>
+-->
+  <!-- End Blog Latest Tweets -->
+</div>
+<!-- End Right Sidebar -->

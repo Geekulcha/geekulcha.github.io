@@ -41,3 +41,5 @@ markdown: kramdown
 #     coderay_css: style
 
 pygments: true
+main: http://www.geekulcha.com
+join: http://join.geekulcha.com
