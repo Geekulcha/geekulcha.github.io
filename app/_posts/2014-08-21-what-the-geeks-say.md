@@ -1,7 +1,9 @@
 ---
 layout: post
 title: What the geeks say...
-image: 1482755_648193571884821_403553899_n.jpg
+images:
+  main: 1482755_648193571884821_403553899_n.jpg
+  thumb: 1482755_648193571884821_403553899_n.jpg
 wordpress_id: 462
 wordpress_url: http://www.geekulcha.com/blog/?p=462
 author:

@@ -1,7 +1,9 @@
 ---
 layout: post
 title: 'Enterprise Architecture '
-image: enterprise-architecture.jpg
+images:
+  main: Enterprise-Architecture.jpg
+  thumb: Enterprise-Architecture.jpg
 wordpress_id: 410
 wordpress_url: http://www.geekulcha.com/blog/?p=410
 author:

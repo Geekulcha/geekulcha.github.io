@@ -1,7 +1,9 @@
 ---
 layout: post
 title: UI/UX - Which One Massages Your Feelings?
-image: ui_ux_experience.png
+images:
+  main: ui-ux-header.png
+  thumb: ui-ux-header.png
 wordpress_id: 403
 wordpress_url: http://www.geekulcha.com/blog/?p=403
 author:

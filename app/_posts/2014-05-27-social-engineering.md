@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Social Engineering
-image: SE.png
+images:
+  main: socialengineering.jpg
+  thumb: socialengineering.jpg
 wordpress_id: 398
 wordpress_url: http://www.geekulcha.com/blog/?p=398
 author:

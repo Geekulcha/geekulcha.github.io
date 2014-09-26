@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Enterprise Architecture Part 2
-image: TOGAF_.png
+images:
+  main: Enterprise-Architecture.jpg
+  thumb: Enterprise-Architecture.jpg
 wordpress_id: 414
 wordpress_url: http://www.geekulcha.com/blog/?p=414
 author:
