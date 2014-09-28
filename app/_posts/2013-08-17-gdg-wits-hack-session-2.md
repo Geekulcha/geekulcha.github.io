@@ -1,7 +1,9 @@
 ---
 layout: post
 title: GDG Wits Hack Session
-image: 9531290200_281db0e6dc_z3.jpg
+images:
+  main: gdg_wits.png
+  thumb: gdg_wits.png
 wordpress_id: 117
 wordpress_url: http://geekulcha.wordpress.com/?p=117
 author:

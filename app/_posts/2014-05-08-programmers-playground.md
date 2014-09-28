@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Programmer's playground
-image: programmers.png
+images: 
+  main: programmers.png
+  thumb: programmers.png
 wordpress_id: 386
 wordpress_url: http://www.geekulcha.com/blog/?p=386
 author:

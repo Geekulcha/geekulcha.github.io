@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Your social media footprint
-image: social_media_footprint.png
+images:
+  main: 110.jpg
+  thumb: 110.jpg
 wordpress_id: 252
 wordpress_url: http://www.geekulcha.com/blog/?p=252
 author:

@@ -1,7 +1,9 @@
 ---
 layout: post
 title: 'Cloud enablement '
-image: cloud.jpg
+images: 
+  main: cloud_enablement.png
+  thumb: cloud_enablement.png
 wordpress_id: 376
 wordpress_url: http://www.geekulcha.com/blog/?p=376
 author:

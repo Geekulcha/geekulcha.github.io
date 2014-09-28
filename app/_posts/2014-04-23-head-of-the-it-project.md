@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Head of the IT project
-image: images.jpg
+images:
+  main: day009b.jpg
+  thumb: day009b.jpg 
+
 wordpress_id: 367
 wordpress_url: http://www.geekulcha.com/blog/?p=367
 author:

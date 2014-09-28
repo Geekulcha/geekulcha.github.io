@@ -1,7 +1,9 @@
 ---
 layout: post
 title: What about the boys?
-image: mvf.jpg
+images: 
+  main:  woman.jpg
+  thumb: woman.jpg
 wordpress_id: 360
 wordpress_url: http://www.geekulcha.com/blog/?p=360
 author:

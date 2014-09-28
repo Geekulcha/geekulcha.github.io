@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Meet Keitumetsi
-image: Tumi_pic.jpg
+images:
+  main: Tumi_pic.jpg
+  thumb: Tumi_pic.jpg
 wordpress_id: 205
 wordpress_url: http://www.geekulcha.com/blog/?p=205
 author:

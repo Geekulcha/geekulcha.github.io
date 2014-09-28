@@ -1,7 +1,9 @@
 ---
 layout: post
 title: TedxPretoria
-image: IMG_2720.jpg
+images:
+  main: tedx_pretoria.jpg
+  thumb: tedx_pretoria.jpg
 wordpress_id: 147
 wordpress_url: http://www.geekulcha.com/blog/?p=147
 author:

@@ -1,7 +1,9 @@
 ---
 layout: post
 title: National Electronics Week - The Geeks Tell
-image: photo.jpg
+images:
+  main: geeks_tell.jpg
+  thumb: geeks_tell.jpg
 wordpress_id: 298
 wordpress_url: http://www.geekulcha.com/blog/?p=298
 author:

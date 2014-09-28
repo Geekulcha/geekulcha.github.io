@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Technology, a male dominated industry?
-image: IT.jpg
+images:
+  main: IT.jpg
+  thumb: IT.jpg
 wordpress_id: 229
 wordpress_url: http://www.geekulcha.com/blog/?p=229
 author:

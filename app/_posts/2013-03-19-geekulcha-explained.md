@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Geekulcha EXPLAINED!!!
-image: 3.jpg
-wordpress_id: 6
+images:
+  main: geekulcha_explained.jpg
+  thumb: geekulcha_explained.jpg
 wordpress_url: http://geekulcha.wordpress.com/?p=2
 author:
   name: Geekulcha

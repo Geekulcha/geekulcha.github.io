@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Degree vs Certification
-image: imagesCAA4TC16.jpg
+images:
+  main: Grad-School-e1370011106752.jpg
+  thumb: Grad-School-e1370011106752.jpg
 wordpress_id: 292
 wordpress_url: http://www.geekulcha.com/blog/?p=292
 author:

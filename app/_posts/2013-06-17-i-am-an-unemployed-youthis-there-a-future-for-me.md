@@ -3,7 +3,9 @@ layout: post
 title: !binary |-
   SSBhbSBhbiB1bmVtcGxveWVkIHlvdXRo4oCmSVMgVEhFUkUgQSBGVVRVUkUg
   Rk9SIE1FPw==
-image: future-me.jpg
+images:
+  main: internships.png
+  thumb: internships.png
 wordpress_id: 99
 wordpress_url: http://geekulcha.wordpress.com/?p=99
 author:

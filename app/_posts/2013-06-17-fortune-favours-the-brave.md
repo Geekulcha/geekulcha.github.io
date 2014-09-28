@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Fortune Favours The Brave
-image: Screen-Shot-2013-02-17-at-10.32.01-AM.png
+images:
+  main: fortune-favors-the-brave-print-lg.jpg
+  thumb: fortune-favors-the-brave-print-lg.jpg
 wordpress_id: 93
 wordpress_url: http://geekulcha.wordpress.com/?p=93
 author:

@@ -1,7 +1,9 @@
 ---
 layout: post
 title: 'IoT (Internet of things) '
-image: IoT_Image.png
+images:
+  main: iot.png
+  thumb: iot.png
 wordpress_id: 277
 wordpress_url: http://www.geekulcha.com/blog/?p=277
 author:

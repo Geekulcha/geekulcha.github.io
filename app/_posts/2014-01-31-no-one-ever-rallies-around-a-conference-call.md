@@ -3,7 +3,9 @@ layout: post
 title: !binary |-
   4oCcTm8gb25lIGV2ZXIgcmFsbGllcyBhcm91bmQgYSBjb25mZXJlbmNlIGNh
   bGwu4oCd
-image: conference-call-conferencing-circle-around-mans-picture-placed-avatars-other-people-who-talking-to-each-other-35308231.jpg
+images:
+  main: conference-call-conferencing-circle-around-mans-picture-placed-avatars-other-people-who-talking-to-each-other-35308231.jpg
+  thumb: conference-call-conferencing-circle-around-mans-picture-placed-avatars-other-people-who-talking-to-each-other-35308231.jpg
 wordpress_id: 247
 wordpress_url: http://www.geekulcha.com/blog/?p=247
 author:

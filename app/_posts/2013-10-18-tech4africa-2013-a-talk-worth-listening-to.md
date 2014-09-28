@@ -1,7 +1,9 @@
 ---
 layout: post
 title: 'Tech4Africa 2013: A talk worth Listening to.'
-image: Work_Tech4Africa_Screenshot_1.jpg
+images:
+  main: tech4africa-logo.jpg
+  thumb: tech4africa-logo.jpg
 wordpress_id: 173
 wordpress_url: http://www.geekulcha.com/blog/?p=173
 author:
