@@ -17,19 +17,19 @@ tags: []
 ---
 The Enterprise architecture (EA) practise uses collaborative design methods, standard architectural frameworks and general patterns to manage the complexity of large scale enterprise changes without losing sight of strategic context. It helps to identify opportunities for improvement and to define the desired future state of the business and its IT assets.
 
- The most widely used practise is The Open Group Architecture Framework (TOGAF) with the recent version being TOGAF 9.1, released 1 December 2011
+ The most widely used practise is *The Open Group Architecture Framework* (TOGAF) with the recent version being TOGAF 9.1, released 1 December 2011
 
-_“TOGAF is a high level approach to design. It is typically modeled at four levels: Business, Application, Data, and Technology. It tries to give an overall starting model to information architects, which can then be built upon. It relies heavily on modularization, standardization, and already existing, proven technologies and products.”_
+_“**TOGAF** is a high level approach to design. It is typically modeled at four levels: Business, Application, Data, and Technology. It tries to give an overall starting model to information architects, which can then be built upon. It relies heavily on modularization, standardization, and already existing, proven technologies and products.”_
 
  EA’s plans and designs help provide understanding of the impact of new business vision on the IT systems that support current business. It is used to operate and align IT systems with emerging business needs and also reduces the risk associated with large scale transformation projects.
 
  The services provided by EA help to bridge the gap between business/IT strategy and execution. It helps to identify opportunities and gain cost effective efficiency through eliminating redundant business functions and IT systems.
 
- There are 2 definitions of EA
+ There are 2 definitions of EA:
 
- 1        A set of business system models and plans
+1. A set of business system models and plans
+2. The practice that produces the models and plans
 
- 2        The practice that produces the models and plans
 
  EA is a set of blueprints and roadmaps which represent the fundamental organisation of a business and its IT systems embedded in its components, their relationships to the environment and the principles guiding the business and IT system’s design and evolution.
 

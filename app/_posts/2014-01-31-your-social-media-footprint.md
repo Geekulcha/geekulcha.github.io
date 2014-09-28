@@ -15,7 +15,8 @@ categories:
   autoslug: careers
 tags: []
 ---
- [![social_media_footprint](http://www.geekulcha.com/blog/wp-content/uploads/2014/01/social_media_footprint.png)](http://www.geekulcha.com/blog/wp-content/uploads/2014/01/social_media_footprint.png)Social Media now has a bigger impact than ever on people both getting and losing jobs. Although this should be a personal space, more employers are looking to social media to get a feel of their employees and applicants. The amount off accountability has increased significantly and even things you post within your personal capacity can be negatively held against you.
+
+ Social Media now has a bigger impact than ever on people both getting and losing jobs. Although this should be a personal space, more employers are looking to social media to get a feel of their employees and applicants. The amount off accountability has increased significantly and even things you post within your personal capacity can be negatively held against you.
 
  Your social media footprint is any information that can be found about you online. It is the trail that is left behind every time you get tagged in a Flickr photo, upload a photo on Instagram, check in on Foursquare, tweet on Twitter, share anything on Facebook, pin on Pinterest, publish videos on YouTube, add jobs and education info on LinkedIn.
 

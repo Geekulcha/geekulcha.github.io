@@ -18,9 +18,12 @@ categories:
   autoslug: geekulcha
 tags: []
 ---
- [![IoT_Image](http://www.geekulcha.com/blog/wp-content/uploads/2014/02/IoT_Image.png)](http://www.geekulcha.com/blog/wp-content/uploads/2014/02/IoT_Image.png)Believe it or not, IoT is the transferring of data from one machine to another without any human-to-computer interaction. It is a manifestation that has evolved from micro-electromechanical systems, wireless and internet technologies. This means that technological value can be added to anything that can be given an IP address and has the ability to transfer data.
+Believe it or not, IoT is the transferring of data from one machine to another without any human-to-computer interaction. It is a manifestation that has evolved from micro-electromechanical systems, wireless and internet technologies. This means that technological value can be added to anything that can be given an IP address and has the ability to transfer data.
 
-**_ “_** _the complexity of IoT interconnections rapidly outstrips our ability to unravel them”- Andrew Rose_
+<blockquote>
+  <p>"The complexity of IoT interconnections rapidly outstrips our ability to unravel them"</p>
+  <small><em>Andrew Rose</em></small>
+</blockquote>
 
  One of the risks that may not necessarily be negative because of usage but negative because of the growth that IoT conveys, is running out of address space to accommodate all of these new IP addresses.
 
@@ -29,6 +32,8 @@ tags: []
  Another question that can be asked is, does IoT increase the gap between the rich and poor? Not having internet access may mean less access to things that may matter most. This could discriminate against people who have little or no access to the internet.
 
  As with many IT developments this idea is not going unchallenged. What is clear is that the benefits out way the disadvantages by a long shot and as with any invention, there is always room for improvement.
+
+[![IoT_Image](http://www.geekulcha.com/blog/wp-content/uploads/2014/02/IoT_Image.png)](http://www.geekulcha.com/blog/wp-content/uploads/2014/02/IoT_Image.png)
 
  If you are a business owner you will be glad to know that this development reduces cost and loss because of the increased accuracy that this development brings. It gives great grounds to the emerging knowledge economy. IoT means business strategies can be more productive and current.
 
