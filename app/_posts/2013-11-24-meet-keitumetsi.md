@@ -15,7 +15,6 @@ categories:
   autoslug: uncategorized
 tags: []
 ---
-[caption id="attachment\_206" align="alignright" width="300"] [![Keitumetsi Tsotetsi](http://www.geekulcha.com/blog/wp-content/uploads/2013/11/Tumi_pic-300x225.jpg)](http://www.geekulcha.com/blog/wp-content/uploads/2013/11/Tumi_pic.jpg) Keitumetsi Tsotetsi[/caption]
 
  Hello everyone, Keitumetsi here. IT fanatic, soon to be graduate, lover of food and full time optimist. I’m the new addition to the crew and, might I add, I am super excited. I’m looking forward to sharing my opinions and hearing yours about the modernization that Information technology has to offer.
 
