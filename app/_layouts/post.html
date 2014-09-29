@@ -1,6 +1,56 @@
 ---
-layout: default
+layout: default-post
 ---
-<article class="post">
-{{ content }}
-</article>
+
+{% include navbar.html %}
+{% include breadcrumbs.html %}
+
+<!--=== Content Part ===-->
+<div class="container content">
+  <div class="row blog-page blog-item">
+    <!-- Left Sidebar -->
+    <div class="col-md-9 md-margin-bottom-60">
+      <!--Blog Post-->
+      <div class="blog margin-bottom-40">
+        <h1><a href="#">{{ page.title }}</a></h1>
+        <div class="blog-post-tags">
+          <ul class="list-unstyled list-inline blog-info">
+            <li><i class="fa fa-calendar"></i> {{ page.date | date_to_string }}</li>
+            <li><i class="fa fa-pencil"></i> {{ page.author.name }}</li>
+<!--            <li><i class="fa fa-comments"></i> <a href="#">24 Comments</a></li>-->
+          </ul>
+          <ul class="list-unstyled list-inline blog-tags">
+            <li>
+              {% if page.tags.size > 0 %}
+                <i class="fa fa-tags"></i>
+                {% for tag in page.tags %}
+                <a href="#">{{ tag.title }}</a>
+                {% endfor %}
+              {% endif %}
+            </li>
+          </ul>
+        </div>
+        <div class="blog-img">
+          <img class="img-responsive" src="{{ site.post-img-dir }}/{{ page.images.main }}" alt="">
+        </div>
+
+        {{ content }}
+
+      </div>
+      <!--End Blog Post-->
+
+      <hr>
+      <!-- Comment Form -->
+      <div class="post-comment">
+        <h3>Leave a Comment</h3>
+        {% include disqus.html %}
+      </div>
+      <!-- End Comment Form -->
+    </div>
+    <!-- End Left Sidebar -->
+
+    {% include sidebar.html %}
+
+  </div><!--/row-->
+</div><!--/container-->
+<!--=== End Content Part ===-->

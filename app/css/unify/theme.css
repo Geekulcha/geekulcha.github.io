@@ -66,6 +66,7 @@ a.read-more:hover {
 	.header .navbar-default .navbar-nav > li > a:hover,
 	.header .navbar-default .navbar-nav > .active > a {
 		border-bottom: solid 2px #e74c3c;
+        color: #e74c3c;
 	}
 
 	.header .navbar-default .navbar-nav > .open > a,

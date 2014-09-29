@@ -1,56 +1,28 @@
 <!DOCTYPE html>
 <html class="no-js">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    {% include meta.html %}
+    {% include main-css-block.html %}
 
-    <title>{{ page.title }} - Geekulcha | Young. Talented. Skilled. Creative. Ambitious</title>
-    <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
-
-    <!-- build:css(app) /css/vendor.css -->
+    <!-- build:css(app) /css/theme.css -->
+    <link rel="stylesheet" href="/css/unify/theme.css">
     <!-- endbuild -->
-    <!-- <link rel="stylesheet" href="{{ site.baseurl }}/_bower_components/bootstrap/dist/css/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="{{ site.baseurl }}/_bower_components/fontawesome/css/font-awesome.min.css"> -->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
 
-    <!-- build:css(app) /css/global-plugins.css -->
-    <!-- endbuild -->
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/unify/app.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/unify/ie8.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/unify/plugins/animate.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/unify/plugins/box-shadows.css">
-
-    <!-- build:css(app) /css/main.css -->
-    <!-- endbuild -->
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/spinner.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/unify/blog_masonry_3col.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/unify/theme.css">
-
-    <!-- build:js(app) /js/head-scripts.js -->
-    <!-- endbuild -->
     <!-- Replace with a custom modernizer build for production -->
-    <!-- // <script src="{{ site.baseurl }}/_bower_components/modernizr/modernizr.js"></script> -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
 
   </head>
   <body>
     <!--[if lt IE 8]>
-    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    {% include header.html %}
 
-    {{ content }}
+    <div class="wrapper">
+      {{ content }}
 
-    {% include footer.html %}
+      {% include footer.html %}
+    </div>
 
     {% include scripts.html %}
-    {% include googleanalytics.html %}
-
   </body>
 </html>

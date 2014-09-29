@@ -5,6 +5,7 @@
 
 name: gk-blog-jekyll
 description: Geekulcha Blog
+tagline: Young. Talented. Skilled. Creative. Ambitious
 author:
   name: Geekulcha
   email: blog@geekulcha.com
@@ -19,12 +20,12 @@ include: ['.htaccess']
 future: true
 show_drafts: true
 
-permalink: /:title
-# paginate: 10
-paginate_path: 'page:num'
 
-url: 'http://geekulcha.github.io'
-baseurl: '/blog'
+permalink: /:title
+paginate: 10
+paginate_path: 'page:num'
+post-img-dir: /img/posts
+baseurl: ''
 
 # Markdown library
 markdown: kramdown
@@ -42,3 +43,5 @@ markdown: kramdown
 #     coderay_css: style
 
 pygments: true
+main: http://www.geekulcha.com
+join: http://join.geekulcha.com

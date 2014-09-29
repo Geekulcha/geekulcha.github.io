@@ -1,25 +1,26 @@
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
-<!-- // <script>window.jQuery || document.write('<script src="{{ site.baseurl }}/_bower_components/jquery.js"><\/script>')</script> -->
+{% include googleanalytics.html %}
 
 <!-- build:js(app) /js/vendor.js -->
+<script src="/js/vendors/jquery/jquery.min.js"></script>
+<script src="/js/vendors/jquery-migrate.min.js"></script>
+<script src="/js/vendors/bootstrap.min.js"></script>
+<script src="/js/masonry/jquery.masonry.min.js"></script>
 <!-- endbuild -->
-<!-- <script src="{{ site.baseurl }}/_bower_components/jquery-migrate/jquery-migrate.min.js"></script> -->
-<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css"></script>
-<!-- <script src="{{ site.baseurl }}/_bower_components/bootstrap/dist/js/bootstrap.min.js"></script> -->
-<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<!-- <script src="{{ site.baseurl }}/_bower_components/jquery-masonry/dist/masonry.pkgd.min.js"></script> -->
-<script src="{{ site.baseurl }}/js/masonry/jquery.masonry.min.js"></script>
 
-<!-- build:js(app) /js/script.js -->
+<!-- build:js(app) /js/back-to-top.js -->
+<script src="/js/plugins/back-to-top.js"></script>
 <!-- endbuild -->
-<script src="{{ site.baseurl }}/js/plugins.js"></script>
-<script src="{{ site.baseurl }}/js/main.js"></script>
-<script src="{{ site.baseurl }}/js/blog-masonry.js"></script>
-<script src="{{ site.baseurl }}/js/infinite-jekyll.js"></script>
+
+<!-- build:js(app) /js/scripts.js -->
+<script src="/js/plugins.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/blog-masonry.js"></script>
+<!-- endbuild -->
+
+<!--<script src="/js/infinite-jekyll.js"></script>-->
 
 <script type="text/javascript">
-  // jQuery(document).ready(function() {
-  //   App.init();
-  // });
+  jQuery(document).ready(function() {
+    App.init();
+  });
 </script>
