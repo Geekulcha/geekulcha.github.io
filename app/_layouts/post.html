@@ -21,10 +21,12 @@ layout: default-post
           </ul>
           <ul class="list-unstyled list-inline blog-tags">
             <li>
-              <i class="fa fa-tags"></i>
-              {% for tag in page.tags %}
-              <a href="#">{{ tag.title }}</a>
-              {% endfor %}
+              {% if page.tags.size > 0 %}
+                <i class="fa fa-tags"></i>
+                {% for tag in page.tags %}
+                <a href="#">{{ tag.title }}</a>
+                {% endfor %}
+              {% endif %}
             </li>
           </ul>
         </div>

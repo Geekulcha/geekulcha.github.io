@@ -13,7 +13,7 @@
   <!-- Posts -->
   <div class="posts margin-bottom-40">
     <div class="headline headline-md"><h2>Recent Posts</h2></div>
-    {% for post in site.posts limit: 3 %}
+    {% for post in site.posts limit: 5 %}
     <dl class="dl-horizontal">
       <dt><a href="{{ post.url }}"><img src="{{ site.post-img-dir }}/{{ post.images.thumb }}" alt="" /></a></dt>
       <dd>
@@ -28,12 +28,14 @@
   <!-- End Posts -->
 
   <!-- Blog Tags -->
+  {% if page.tags.size > 0 %}
   <div class="headline headline-md"><h2>Blog Tags</h2></div>
   <ul class="list-unstyled blog-tags margin-bottom-30">
     {% for tag in page.tags %}
     <li><a href="#"><i class="fa fa-tags"></i> {{ tag.title }}</a></li>
     {% endfor %}
   </ul>
+  {% endif %}
   <!-- End Blog Tags -->
 
   <!-- Blog Latest Tweets -->
