@@ -4,8 +4,8 @@ title: !binary |-
   SSBhbSBhbiB1bmVtcGxveWVkIHlvdXRo4oCmSVMgVEhFUkUgQSBGVVRVUkUg
   Rk9SIE1FPw==
 images:
-  main: internships.png
-  thumb: internships.png
+  main: internships.jpg
+  thumb: internships.jpg
 wordpress_id: 99
 wordpress_url: http://geekulcha.wordpress.com/?p=99
 author:
